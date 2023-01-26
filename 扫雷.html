@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 引入css文件 -->
+    <link rel="stylesheet" href="./css/扫雷.css">
+    <!-- 引入第三方图标 -->
+    <link rel="stylesheet" href="./download/font_3868269_st6efhzxp6s/iconfont.css">
+</head>
+
+<body>
+    <div class="window c">
+        <div class="header">
+            <h1 class="left"><i class="iconfont">&#xe6c8;</i> 扫雷</h1>
+            <div class="right">
+                <div class="xiaobian">
+                    <!-- <i class="iconfont icon-zuixiaohua"></i> -->
+                    <span class="small"></span>
+                </div>
+                <div class="dabian">
+                    <!-- <i class="iconfont icon-xinchuangkoudakai
+                    "></i> -->
+                    <span class="big"></span>
+                </div>
+                <div class="guanbi">
+                    <!-- <i class="iconfont icon-guanbi"></i> -->
+                    <span class="close-one">
+                    </span>
+                    <span class="close-two">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="nav">
+                <div class="henggang"></div>
+                <h1><a href="javaScript:;">游戏</a></h1>
+                <h1><a href="javascript:;">帮助</a></h1>
+            </div>
+            <div class="content">
+                <div class="content-main">
+                    <div class="bor">
+                        <canvas width="100px" height="50px">
+
+                        </canvas>
+                        <canvas width="100px" height="50px">
+                            
+                        </canvas>
+                        <canvas width="100px" height="50px">
+                            
+                        </canvas>
+                        <div class="one">
+                            边长:
+                            <input type="text" value="6">
+                        </div>
+                        <div class="three">
+                            重置
+                        </div>
+                        <div class="two">
+                            雷:
+                            <input type="text" value="4">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-bottom">
+                    <div class="bor1">
+                        <table>
+                            <tr>
+                                <td><img src="images/1雷.gif" alt=""></td>
+                                <td><img src="images/2雷.gif" alt=""></td>
+                                <td><img src="images/3雷.gif" alt=""></td>
+                                <td><img src="images/4雷.gif" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td><img src="images/5雷.gif" alt=""></td>
+                                <td><img src="images/6雷.gif" alt=""></td>
+                                <td><img src="images/7雷.gif" alt=""></td>
+                                <td><img src="images/8雷.gif" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td><img src="./images/空.gif" alt=""></td>
+                                <td><img src="./images/方块.gif" alt=""></td>
+                                <td><img src="./images/标志.gif" alt=""></td>
+                                <td><img src="./images/方块.gif" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td><img src="images/1雷.gif" alt=""></td>
+                                <td><img src="./images/方块.gif" alt=""></td>
+                                <td><img src="./images/方块.gif" alt=""></td>
+                                <td><img src="./images/方块.gif" alt=""></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/功能.js"></script>
+    <script src="./js/mineBoard.js"></script>
+    <script src="./js/game.js"></script>
+    <script src="./js/one.js"></script>
+</body>
+
+</html>

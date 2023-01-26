@@ -1,0 +1,58 @@
+{
+  "id": "3868269",
+  "name": "扫雷",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1372",
+      "name": "新窗口打开",
+      "font_class": "xinchuangkoudakai",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1721672",
+      "name": "皮卡丘-2",
+      "font_class": "pikachu-",
+      "unicode": "e6c8",
+      "unicode_decimal": 59080
+    },
+    {
+      "icon_id": "5651482",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "6160694",
+      "name": "最小化",
+      "font_class": "zuixiaohua",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "20574678",
+      "name": "难过",
+      "font_class": "nanguo",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "20574697",
+      "name": "微笑",
+      "font_class": "weixiao",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "20574699",
+      "name": "无语",
+      "font_class": "wuyu",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    }
+  ]
+}

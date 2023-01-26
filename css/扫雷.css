@@ -1,0 +1,166 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+.c {
+  width: 1000px;
+}
+body {
+  background-color: pink;
+}
+.window {
+  padding: 0 5px;
+  background-color: #017dff;
+  border-radius: 10px;
+}
+.window .header {
+  height: 50px;
+}
+.window .header .left {
+  float: left;
+  height: 100%;
+  line-height: 50px;
+  font-size: 30px;
+  font-family: 楷体;
+  color: #fff;
+}
+.window .header .left .iconfont {
+  font-size: 35px;
+}
+.window .header .right {
+  float: right;
+}
+.window .header .right div {
+  position: relative;
+  margin: 5px 0 0 5px;
+  padding: 5px;
+  float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+}
+.window .header .right div .small {
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+  width: 22px;
+  height: 8px;
+  background-color: #fff;
+  border: none;
+  border-radius: 0;
+}
+.window .header .right div .big {
+  display: block;
+  height: 100%;
+  border: 3px solid #fff;
+  border-top: 6px solid #fff;
+}
+.window .header .right div .close-one {
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  width: 30px;
+  transform: translateY(-50%) rotate(45deg);
+  height: 8px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.window .header .right div .close-two {
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  transform: translateY(-50%) rotate(-45deg);
+  width: 30px;
+  height: 8px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.window .main {
+  width: 100%;
+}
+.window .main .nav {
+  position: relative;
+  width: 100%;
+  height: 35px;
+  background-color: #f3f3f1;
+  transition: all 2s;
+}
+.window .main .nav h1 {
+  float: left;
+  height: 100%;
+  line-height: 35px;
+  font-size: 25px;
+  font-family: 楷体;
+}
+.window .main .nav h1 a {
+  text-decoration: none;
+  color: #333;
+  border: 2px solid transparent;
+}
+.window .main .nav h1:first-of-type {
+  margin-left: 5px;
+}
+.window .main .nav h1:last-of-type {
+  margin-left: 30px;
+}
+.window .main .nav .henggang {
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  width: 50px;
+  height: 100%;
+  border: 2px solid red;
+  background-color: rgba(255, 0, 0, 0);
+  transition: all 2s;
+}
+.window .main .content {
+  padding: 5px;
+  background-color: #fff;
+}
+.window .main .content .content-main {
+  padding: 10px 10px 0;
+  background-color: #bfdee1;
+}
+.window .main .content .content-main .bor {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #64878b;
+  border-right: 2px solid #f5fdfc;
+  border-bottom: 2px solid #f5fdfc;
+  border-left: 2px solid #64878b;
+}
+.window .main .content .content-main .bor canvas {
+  margin: 10px 10px;
+}
+.window .main .content .content-bottom {
+  padding: 10px;
+  background-color: #bfdee1;
+}
+.window .main .content .content-bottom .bor1 {
+  border-top: 2px solid #64878b;
+  border-right: 2px solid #f5fdfc;
+  border-bottom: 2px solid #f5fdfc;
+  border-left: 2px solid #64878b;
+}
+.window .main .content .content-bottom .bor1 table {
+  margin: 0 auto;
+  padding: 0;
+  border: 2px solid #64878b;
+  border-right: 3px solid #f5fdfc;
+  border-bottom: 3px solid #f5fdfc;
+  border-spacing: 0;
+}
+.window .main .content .content-bottom .bor1 table td {
+  width: 26px;
+  height: 26px;
+}
+.window .main .content .content-bottom .bor1 table td img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.three:hover {
+  cursor: pointer;
+}
